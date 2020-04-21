@@ -1,0 +1,8 @@
+
+    <label for="email">email</label>
+    <input type="text" id="email" [(ngModel)]="email" name="email"><br><br>
+    <input type="button" (click)="opt()" value="Get Otp">
+    {{this.timeLeft}}
+    <label for="otp">Otp</label>
+    <input type="text" id="otp" [(ngModel)]="otp" name="otp"><br><br>
+    <input type="button" (click)="validate()" value="Login">
