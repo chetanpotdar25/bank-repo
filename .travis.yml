@@ -1,0 +1,6 @@
+sudo:required
+services:
+    - docker
+
+before_install:
+    - docker build -t chetanpotdar25/bank-repo -f Dockerfile .    
