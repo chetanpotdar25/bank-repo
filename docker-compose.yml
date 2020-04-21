@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
 
-  example:
+  BANK:
     container_name: BANK
     build:
       context: .
