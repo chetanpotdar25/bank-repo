@@ -2,8 +2,8 @@ version: '3.7'
 
 services:
 
-  BANK:
-    container_name: BANK
+  bank:
+    container_name: bank
     build:
       context: .
       dockerfile: Dockerfile
